@@ -1,5 +1,15 @@
 # Microservices
 
+## Architecture
+![Architecture](architecture.png)
+
+
+## How to run
+
+Change to directory k8s-specifications and run the next command:
+
+    kubectl create -f .
+
 ## Redis
 
     docker run -d --name=redis redis
