@@ -6,6 +6,7 @@ metadata:
     name: result-service
     app: demo-voting-app
 spec:
+  # On AWS/GCE change type to LoadBalancer
   type: NodePort
   ports:
     - targetPort: 80
